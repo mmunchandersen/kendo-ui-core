@@ -211,7 +211,7 @@ Checks or unchecks the Switch.
     <input id="switch" />
 
     <script>
-        var switchInstance = $("#switch").kendoSwitch().data("kendoSwitch");
+        var switchInstance = $("#switch").data("kendoSwitch");
         switchInstance.check(true);
     </script>
 
